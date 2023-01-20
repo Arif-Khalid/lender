@@ -1,5 +1,5 @@
 public class Main {
-
+    public static int maxLoanSize = 10;
     public static void main(String[] args) {
         LoanManager m1 = new LoanManager();
         m1.addLoan("Alice Betsy", 10, 0.1);
